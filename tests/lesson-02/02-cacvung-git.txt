@@ -1,0 +1,25 @@
+a. Tạo 3 file: file1, file2, file3
+Working Directory: file1, file2, file3
+Staging Area: trống
+Repository: trống
+
+b. Chạy lệnh: git init
+Working Directory: file1, file2, file3
+Staging Area: trống
+Repository: trống
+
+c. Chạy lệnh: git commit -m”init project”
+lỗi -> vì chưa add nên ko có gì để commit
+
+d. Chạy lệnh: git add file1
+Working Directory: file2, file3
+Staging Area: file1
+Repository: trống
+
+e. Chạy lệnh: git commit -m”add file1”
+Working Directory: file2, file3
+Staging Area: trống
+Repository: file1
+
+f. Chạy lệnh: git commit -m”add file1”
+lỗi -> vì Staging Area đang trống 
