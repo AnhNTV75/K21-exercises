@@ -1,0 +1,59 @@
+I. Git 
+1. Các vùng trong git 
+- Local: thư mục chưa chạy git init, file chưa được git quản lý 
+- Working Directore: sau khi chạy git init, file đang làm việc 
+- Staging Area: sau khi chạy git init, file sẵn sàng commint
+- Repository: Sau khi chạy git commit, file được lưu vào lịch sửa git 
+2. Câu lệnh git cần nhớ 
+- git init -> khởi tạo git cho thư mục 
+- git status -> kiểm tra trạng thái file 
+- git add . -> đưa file vào staging area 
+- git add <file> -> đưa 1 file cụ thể vào git
+- git commit -m "message" -> đưa file từ staging vào repository
+- git push -> đưa code lên GitHub
+----
+II. JavaScript
+1. let -> khai báo biến, gán giá trị 
+2. var -> tương tự let nhưng là cách cũ (ko nên dùng)
+3. const -> khai báo hằng số (ko đổi)
+4. trong vòng lặp luôn dùng let 
+for (let i = 0; i<n; i++){
+    console.log(i);
+}
+5. câu lệnh if 
+if(condition){
+    === // so sánh bằng
+    !== // so sánh khác
+    && // AND
+    || // OR
+}
+6. Kiểm tra số chẵn/ lẻ
+number % 2 === 0 // số chẵn 
+number % 2 !== 0 // số lẻ
+
+7. vòng lặp for
+Cấu trúc 
+for (let i = start; condition; step){
+
+}
+8. toán tử 
+++x -> tăng trước
+--x -> giảm trước
+x++ -> tăng sau
+x-- -> giảm sau
+
+ex: x = 5
+6
+4
+5
+5
+
+---
+III. Phím tắt 
+comment 1 dòng ->  Command + /
+comment nhiều dòng -> bôi đen + Command + /
+
+----
+IV
+Sau khi code xong cần format code 
+Mac: Option + Shift + F

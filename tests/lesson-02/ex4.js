@@ -2,7 +2,7 @@ const height = 157
 const oddHeight = height - 100;
 const ideaWeight = oddHeight * 9 / 10;
 const maxWeight = oddHeight;
-let minWeight = oddHeight * 8 / 10;
+const minWeight = oddHeight * 8 / 10;
 
 console.log(
     "Cân nặng lý tưởng:", ideaWeight,
