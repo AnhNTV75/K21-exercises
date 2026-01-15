@@ -1,0 +1,4 @@
+git commit --amend -> chỉnh sửa commit gần nhất 
+git commit --amend -m "<message>" -> sửa commit message có commit gần nhất mà ko cần mở editor
+git restore --staged <file> -> bỏ file khỏi staging area & không làm mất nội nội dung file 
+git reset HEAD~1 -> xoá commint gần nhất 

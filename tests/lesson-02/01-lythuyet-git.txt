@@ -1,4 +1,4 @@
 git init: khởi tạo 1 repo mới trong thư mục hiện tại
-git add <message> : thêm 1 file cụ thể vào staging area 
+git add <tên file> : thêm 1 file cụ thể vào staging area 
 git add . : thêm all file đã thay đổi 
 git commit -m "message" : tạo 1 commit mới, lưu lại trạng thái hiện tại kèm message 
