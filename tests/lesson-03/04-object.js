@@ -1,4 +1,4 @@
-//1
+//1. tạo object car & in ra năm sx
 car = {
     make: "Toyota",
     model: 'Corolla',
@@ -6,7 +6,7 @@ car = {
 }
 console.log(car.year)
 
-//2
+//2 tạo object person -> in ra tên phố
 const person = {
     name: "Vanh",
     address: {
@@ -18,7 +18,7 @@ const person = {
 }
 console.log(person.address.street);
 
-//3
+//3 in ra điểm toán của Vanh
 student = {
     name: "Vanh",
     grades: {
@@ -28,7 +28,7 @@ student = {
 }
 console.log(student.grades["math"]);
 
-//4
+//4 thay đổi volume rồi in ra thông tin setting
 let settings = {
     volume: 50,
     brightness: 100,
@@ -36,7 +36,7 @@ let settings = {
 settings.volume = 80;
 console.log(settings);
 
-//5
+//5 thêm thuộc tính color 
 let bike = {
     brand: "Honda",
     price: 50000
@@ -44,7 +44,7 @@ let bike = {
 bike.color = "red"
 console.log(bike);
 
-//6
+//6 Xoá age 
 let employee = {
     name: "Vanh",
     age: "18",
@@ -52,7 +52,7 @@ let employee = {
 delete employee.age
 console.log(employee);
 
-//7
+//7 in ra tên hs class A, B
 const school = {
     classA: ["An", "Binh", "Chau"],
     classB: ["Đào", "Hương", "Giang"],
