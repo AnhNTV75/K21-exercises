@@ -1,5 +1,5 @@
 //1. tạo object car & in ra năm sx
-car = {
+const car = {
     make: "Toyota",
     model: 'Corolla',
     year: 2021
@@ -19,7 +19,7 @@ const person = {
 console.log(person.address.street);
 
 //3 in ra điểm toán của Vanh
-student = {
+const student = {
     name: "Vanh",
     grades: {
         math: 10,
@@ -37,7 +37,7 @@ settings.volume = 80;
 console.log(settings);
 
 //5 thêm thuộc tính color 
-let bike = {
+const bike = {
     brand: "Honda",
     price: 50000
 };
