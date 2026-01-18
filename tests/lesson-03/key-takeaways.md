@@ -43,5 +43,40 @@
 - git checkout branch <ten nhánh> -> chuyển sang nhánh mới (chơi)
 - git branch -D <ten nhánh> -> xoá nhánh (ko xoá chính nhánh đang đứng) 
 
+## Markdown
+### Tiêu đề 
+- # -> tiêu đề cấp 1
+- ## -> tiêu đề cấp 2
+- ### -> tiêu đề cấp 3
+### Nhấn mạnh văn bản 
+- **in đậm** 
+- *in nghiêng*
+- ***vừa nghiêng vừa đậm***
+### Danh sách 
+- Mục 1
+- Mục 2
+ - Mục con 1
+ - Mục con 2
+### Link 
+[Văn bản hiển thị](link)
+### Hình ảnh 
+![Văn bản thay thế](đường dẫn h/a.jpg)
+### Trích dẫn 
+> có thể note 1 or nhiều dòng 
+>> trích dẫn lồng nhau
+### code inline
+`code` 
+### kẻ ngang 
+--- or ***
+### bảng 
+|cột 1| cột 2|
+|dữ liệu 1| dữ liệu 2|
+### Checkbox 
+- [x] Nhiệm vụ đã hoàn thành 
+- [] Nhiệm vụ chưa hoàng thành 
+
+
+
+
 
 
