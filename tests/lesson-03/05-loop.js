@@ -34,15 +34,15 @@ for (let i = 1; i <= 10; i++) {
 
 //5. tính tổng doanh thu 1 năm 
 let monthlyRevenue = [
-    { month: 1, revenue: 100 },
-    { month: 2, revenue: 200 },
-    { month: 3, revenue: 300 },
-    { month: 4, revenue: 400 },
+    { month: 1, total: 100 },
+    { month: 2, total: 200 },
+    { month: 3, total: 300 },
+    { month: 4, total: 400 },
 
 ]
 let totalRevenue = 0;
 for (let i = 0; i < monthlyRevenue.length; i++) {
-    totalRevenue += monthlyRevenue[i].revenue;
+    totalRevenue += monthlyRevenue[i].total;
 }
 console.log("Tong totalRevenue: ", totalRevenue);
 
