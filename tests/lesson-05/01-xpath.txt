@@ -1,0 +1,25 @@
+1. Sử dụng XPath tuyệt đối, chọn phần tử sau 
+a. Lấy input "Họ và tên" -> /html/body/div/div/form/input[1]
+b. Lấy button "Đăng ký" -> /html/body/div/div/form/button
+c. Lấy hàng đầu tiên trong tbody -> html/body/div/div/table/tbody/tr[1]
+-----
+2. Sử dụng XPath tương đối, chọn phần tử sau
+a. Lấy input có placeholder = "Số điện thoại" 
+-> //input[@placeholder = 'Số điện thoại'] or
+-> //input[@id='phone']
+b. Lấy email của "Trần Thị Bình" (hàng 2, cột 2)
+//tr[td[text() = 'Trần Thị Bình']]/td[2]
+c. Lấy số điện thoại của "Lê Hoàng Cường" (hàng 3, cột 3)
+//tr[td[text() = 'Lê Hoàng Cường']]/td[3]
+d. Lấy button có class = "btn-register"
+//button[@class = 'btn-register']
+e. Lấy table có id = resultTable"
+//table[@id= 'resultTable']
+-----
+3.Note
+- DOM: là "bản đồ" cây của trang web, biến HTML thành các đối tượng có thể tương tác 
+- XPath tuyệt đối (/) : Đi từ gốc html, dễ hỏng khi cấu trúc web thay đổi 
+- XPath tương đối (//) : Đi thẳng đến phần tử ở bất cứ đâu -> nên dùng
+- Chỉ số [n] : Dùng để chọn phần tử thứ n khi có nhiều thẻ giống nhau (như tr, td, input)
+- Thuộc tính @: Luôn phải có @ trước tên thuộc tính (như @id, @class, @placeholder)
+- Hàm text() : Tìm phần tử dựa trên chữ mà người dùng nhìn thấy trên màn hình  
