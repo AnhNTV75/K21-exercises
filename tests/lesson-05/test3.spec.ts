@@ -13,11 +13,11 @@ test('Bài 3: Quản lý todo list bằng XPath', async ({ page }) => {
         await inputTodo.fill(`Todo ${i}`);
         await btnAdd.click();
     }
+
     // b. Xoá todo lẻ 
     for (let i = 1; i <= 100; i += 2){
-        // e xoá hú hoạ todo-1 trước -> xoá todo lẻ = //button[@id='todo-${i-1} {-delete'] nó báo lỗi chưa biếc cách fix ạ
-        const deleteButton = `//button[@id='todo-1-delete']`;
-        await page.locator(deleteButton).click();
+        const xpathDelete = `//button[@id='todo-${i-1}-delete']`;
+        await page.locator(xpathDelete).click();
     }
 
 });   
