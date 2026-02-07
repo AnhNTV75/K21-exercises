@@ -1,0 +1,6 @@
+1. git clone <url>: sao chép toàn bộ mã nguồn, các nhánh và lịch sử của một kho lưu trữ từ máy chủ về máy tính cá nhân
+2. git branch <branch_name>: tạo một nhánh mới tự vị trí hiện tại 
+3. git checkout <branch_name>: dùng để di chuyển qua lại giữa các nhánh đang tồn tại 
+4. git checkout -b <branch_name>: mix -> vừa tạo nhánh vừa chuyển sang nhánh đó ngay lập tức
+5. git pull origin master: lấy toàn bộ các thay đổi mới nhất từ nhánh master trên server về máy và tự động gộp vào nhánh hiện tại đang đứng
+
