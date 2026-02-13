@@ -68,5 +68,9 @@ const vanh = new Student("Vanh", "K21");
 vanh.study();
 // KQ: Vanh đang học....
 
+### lệnh chạy testcase.ts 
+npx ts-node <path_file>
+npx tsx <path_file>
+
 
         
